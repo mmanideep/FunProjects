@@ -1,0 +1,36 @@
+:root {
+    --core-blue: #5bc0eb;
+    --core-green: #9BC53D;
+    --core-yellow: #FDE74C;
+    --core-flame: #E55934;
+    --core-orange: #FA7921;
+
+    --boardPixel-size: 3vh;
+}
+
+html, body {
+    height: 100%;
+}
+
+.fullHeight{
+    height: 100%;
+}
+
+.boardPixel-0 {
+    background-color: var(--core-blue);
+    height: var(--boardPixel-size);
+    width: var(--boardPixel-size);
+}
+
+.boardPixel-1 {
+    background-color: var(--core-green);
+    height: var(--boardPixel-size);
+    width: var(--boardPixel-size);
+}
+
+.boardPixel-2 {
+    background-color: var(--core-flame);
+    height: var(--boardPixel-size);
+    width: var(--boardPixel-size);
+}
+
